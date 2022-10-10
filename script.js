@@ -1,4 +1,49 @@
 
+let bDay = prompt('Which year were you born?');
+if(bDay === null){
+    alert("Such a pity you don't want to share your age with us...");
+}else {
+    bDay = parseInt(bDay);
+    alert('Your age is - ' + (2022 - bDay) + '\n Or you might be 1 year younger if you were born in the range of 10.10.' + bDay + ' - 31.12.' + bDay);
+}
+let city = prompt('What city do you live in?');
+if(city === null){
+    alert("Such a pity you don't want to share the city you live in with us...");
+}else {
+    switch (city) {
+        case 'Kiev':
+            alert('You live in the capital of Ukraine');
+            break;
+        case 'Washington':
+            alert('You live in the capital of US');
+            break;
+        case 'London':
+            alert('You live in the capital of GB');
+            break;
+        default:
+            alert('You live in ' + city);
+    }
+}
+let favSport = prompt('What is your favourite sport?');
+if(favSport === null){
+    alert("Such a pity you don't want to share your favourite sport with us...");
+}else {
+    switch (favSport) {
+        case 'swimming':
+            alert("That's cool! Dreaming of becoming Michael Phelps?");
+            break;
+        case 'boxing':
+            alert("That's cool! Dreaming of becoming Mike Tyson?");
+            break;
+        case 'tennis':
+            alert("That's cool! Dreaming of becoming Rafael Nadal?");
+    }
+}
+
+
+
+
+
 
 
 
